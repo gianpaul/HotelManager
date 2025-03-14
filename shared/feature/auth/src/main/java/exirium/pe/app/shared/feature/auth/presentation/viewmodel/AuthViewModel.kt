@@ -2,7 +2,6 @@ package exirium.pe.app.shared.feature.auth.presentation.viewmodel
 
 import exirium.pe.app.shared.core.presentation.mvi.implementation.BaseViewModel
 import exirium.pe.app.shared.domain.model.Session
-import exirium.pe.app.shared.domain.model.UserRole
 import exirium.pe.app.shared.feature.auth.application.usecase.GetSessionUseCase
 import exirium.pe.app.shared.feature.auth.application.usecase.ResetPasswordUseCase
 import exirium.pe.app.shared.feature.auth.application.usecase.SignInUseCase

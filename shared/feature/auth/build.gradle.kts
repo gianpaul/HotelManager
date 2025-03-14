@@ -36,6 +36,17 @@ dependencies {
     implementation(project(":shared:domain"))
     implementation(project(":shared:core"))
     implementation(libs.androidx.core.ktx)
+
+    //Koin
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
+
+    // Supabase
+    implementation(libs.supabase.auth)
+
+    // Serialization
+    implementation(libs.kotlinx.serialization.json)
+
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.material)
     testImplementation(libs.junit)

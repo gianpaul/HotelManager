@@ -1,4 +1,4 @@
-package exirium.pe.app.shared.domain.model
+package exirium.pe.app.shared.feature.auth.domain.model
 
 enum class UserRole {
     ADMIN,          // Administrador - acceso total al sistema
