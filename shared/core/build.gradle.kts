@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "exirium.pe.app.shared.feature.auth"
+    namespace = "exirium.pe.app.shared.core"
     compileSdk = 34
 
     defaultConfig {
@@ -33,8 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":shared:domain"))
-    implementation(project(":shared:core"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.material)

@@ -30,5 +30,5 @@ dependencyResolutionManagement {
 
 include(":composeApp")
 include(":shared:domain")
-include(":shared:data")
 include(":shared:feature:auth")
+include(":shared:core")
